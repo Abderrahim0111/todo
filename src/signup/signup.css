@@ -1,0 +1,18 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 9px;
+    height: 300px;
+    width: 250px;
+    justify-content: center;
+
+}
+.signup .signupBtn{
+    text-align: center;
+    margin-top: 15px;
+}
+.signup a{
+    color: teal;
+    border-bottom: 2px solid teal;
+}

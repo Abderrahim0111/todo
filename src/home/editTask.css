@@ -1,0 +1,73 @@
+.editTask .title i{
+    font-size: 22px;
+    margin-left: 5px;
+}
+.editTask .title{
+    margin-bottom: 30px;
+    margin-top: 40px;
+    text-align: center;
+
+}
+.editTask .title input{
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.editTask .button{
+    background-color: rgb(208, 18, 18);
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 40px;
+   
+}
+.editTask ul{
+    list-style: none;
+}
+.editTask ul li{
+    border: 1px solid antiquewhite;
+    padding: 15px 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    width: 422px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.editTask ul li:hover{
+    border-left: 8px solid antiquewhite;
+
+}
+.editTask ul li i{
+    color: rgb(241, 71, 71);
+    font-size: 20px;
+    cursor: pointer;
+}
+.addSubTask{
+    display: flex;
+    align-items: center;
+    justify-content: left !important;
+    animation: yo 0.4s;
+}
+@keyframes yo {
+    0%{
+        scale: 0;
+    }
+    100%{
+        scale: 1;
+    }
+}
+.addSubTask input{
+    margin-right: 4px;
+    margin-bottom: 0px;
+    width: 230px;
+}
+.addSubTask button{
+    background-color: teal;
+    padding: 11px ;
+    color: white;
+}

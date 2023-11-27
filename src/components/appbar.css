@@ -1,0 +1,33 @@
+.appBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 25px;
+    box-shadow: 0px 5px 12px -1px rgba(0,0,0,0.3);
+}
+.appBar a{
+    color: black;
+}
+.appBar ul{
+    list-style: none;
+    display: flex;
+    
+    
+}
+.appBar ul li{
+    margin-left: 28px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.appBar ul li:hover{
+    scale: 1.07;
+    text-decoration: underline;
+}
+.appBar i{
+    font-size: 26px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.appBar i:hover{
+    font-size: 29px;
+}

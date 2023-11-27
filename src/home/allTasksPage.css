@@ -1,0 +1,112 @@
+/* ======================
+       FilterBtns
+========================= */
+.FilterBtns {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.FilterBtns button {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  background-color: royalblue;
+  color: white;
+}
+.FilterBtns button:hover{
+  scale: 1.05;
+}
+
+
+/* ======================
+         allTaks
+========================= */
+.allTaks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.allTaks .task {
+  border: 2px solid gray;
+  width: 320px;
+  height: 180px;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.4s;
+  box-sizing: border-box;
+  position: relative;
+  margin: 10px;
+}
+.allTaks .task:hover {
+  border-left: 8px solid gray;
+  cursor: pointer;
+}
+.allTaks .task h2 {
+  text-align: center;
+  margin-bottom: 17px;
+}
+.allTaks .task ul {
+  list-style-position: inside;
+  list-style-type: circle;
+  line-height: 30px;
+}
+.allTaks .task p {
+  position: absolute;
+  bottom: 5px;
+  right: 7px;
+  color: darkcyan;
+}
+.allTasksPageModal{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.allTasksPageModal input{
+    display: block;
+    width: 250px;
+}
+.allTasksPageModal ul{
+    list-style-position: inside;
+    list-style-type: circle;
+    line-height: 30px;
+    margin-top: 25px;
+    
+}
+.allTasksPageModal .mb{
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+.allTasksPageModal .flex{
+    display: flex;
+    align-items: center;
+    
+}
+.allTasksPageModal .flex button{
+    padding: 11px 12px;
+}
+.allTasksPageModal .noMb{
+    margin-bottom: 0;
+    margin-right: 4px;
+}
+.allTasksPageModal button{
+    background-color: teal;
+    color: white; 
+}
+
+/* ======================
+       addNewTakBtn
+========================= */
+.addNewTakBtn {
+  display: flex;
+  justify-content: center;
+}
+.addNewTakBtn button {
+  display: flex;
+  align-items: center;
+  background-color: teal;
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+}
+.addNewTakBtn button p {
+  margin-right: 5px;
+}
+
+

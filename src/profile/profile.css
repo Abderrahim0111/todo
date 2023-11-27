@@ -1,0 +1,19 @@
+.profile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.profileDivs{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+.profileDivs h2{
+    margin-right: 30px;
+}
+.deleteAccountBtn{
+    background-color: rgb(225, 13, 13);
+    color: white;
+
+}

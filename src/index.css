@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+button{
+  padding: 9px 12px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+button:active{
+  scale: 0.9;
+}
+button:hover{
+  scale: 1.05;
+}
+input{
+  padding: 9px 12px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+select{
+  padding: 7px 12px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+a{
+  text-decoration: none;
+}
+.mtt{
+  margin-top: 30px;
+  color: rgb(231, 65, 65);
+  font-size: 14px;
+}
+.dark .appBar{
+  background-color: #272727;;
+  color: white;
+}
+.dark .appBar a{
+  color: white;
+}
+.dark main{
+  background-color: #2D2D2D;
+  color: white;
+}
+.dark .editTask .title input{
+  color: white;
+}
+.dark .editTask ul li{
+  background-color: #272727;
+  border: 1px solid gray;
+}
+.dark .editTask ul li:hover{
+  border-left: 8px solid gray;
+}

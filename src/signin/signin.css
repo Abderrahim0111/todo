@@ -1,0 +1,25 @@
+.signin{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 9px;
+    height: 300px;
+    width: 250px;
+    justify-content: center;
+
+}
+
+.signin .signinBtn{
+    text-align: center;
+    margin-top: 15px;
+}
+.signin .forgotPassrodBtn{
+    text-align: right;
+    margin-bottom: 5px;
+    cursor: pointer;
+
+}
+.signin a{
+    color: teal;
+    border-bottom: 2px solid teal;
+}
